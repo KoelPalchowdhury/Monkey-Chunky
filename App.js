@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React,{Component} as React from 'react';
 import {
   Text,
   View,
@@ -12,7 +12,7 @@ import { Header } from 'react-native-elements';
 import db from './localdb';
 import PhonicSoundButton from './components/PhonicSoundButton';
 
-export default class App extends React.Component {
+export default class App extends Component {
   constructor() {
     super();
     this.state = {
